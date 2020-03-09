@@ -17,6 +17,75 @@
   />
 
   <body>
+    <nav>
+      <div class="nav-wrapper blue">
+        <div class="container">
+          <a href="#" class="brand-logo center">Tracolorie</a>
+          <ul class="right">
+            <li>
+              <a href="#" class="clear-btn btn blue lighten-3">Clear All</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Add Meal / Food Items</span>
+          <form class="col"></form>
+          <div class="row">
+            <div class="input-field col s6">
+              <input type="text" placeholder="Add meal" class="item-name" />
+              <label for="item-name">Meal</label>
+            </div>
+            <div class="input-field col s6">
+              <input
+                type="text"
+                placeholder="Add Calories"
+                class="item-calories"
+              />
+              <label for="item-colories">Calories</label>
+            </div>
+            <button class="add-btn btn blue darken-3">
+              <i class="fa fa-plus">Add Meal</i>
+            </button>
+            <!--
+            <button class="update-btn btn orange ">
+              <i class="fa fa-pencil-square-o">Update Meal</i>
+            </button>
+            <button class="delete-btn btn red">
+              <i class="fa fa-remove">Remove Meal</i>
+            </button>
+            -->
+            <button class="back-btn btn grey pull-right">
+              <i class="fa fa-chevron-circle-left"> Back</i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <h3 class="center-align">
+        Total Colories : <span class="total-colories">0</span>
+      </h3>
+      <ul id="item-list" class="collection">
+        <li class="collection-item">
+          <strong>Chicken Biryani : </strong><em>1100 Calories</em>
+          <a href="#" class="secondary-content"><i class="fa fa-pencil"></i></a>
+        </li>
+        <li class="collection-item">
+          <strong>Omlet : </strong><em>400 Calories</em>
+          <a href="#" class="secondary-content"><i class="fa fa-pencil"></i></a>
+        </li>
+        <li class="collection-item">
+          <strong>Chocolate Bar : </strong><em>600 Calories</em>
+          <a href="#" class="secondary-content"><i class="fa fa-pencil"></i></a>
+        </li>
+      </ul>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
